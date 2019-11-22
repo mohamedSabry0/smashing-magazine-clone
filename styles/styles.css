@@ -1,9 +1,45 @@
 nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: flex; 
   width: 100%;
+  background-color: #bc3428;
 }
 
 nav ul {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+}
+
+nav li {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icon {
+  height: 44px; 
+}
+
+.latest-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+}
+
+.latest-title {
+  grid-column: 4/6;
+}
+
+.latest-article:nth-child(1), 
+.latest-article:nth-child(3) {
+  grid-column: 1/4;
+  grid-row: 1
+}
+
+.latest-article:nth-child(2), 
+.latest-article:nth-child(4) {
+  grid-column: 4/-1;
 }
