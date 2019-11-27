@@ -26,7 +26,7 @@ nav li {
 .latest-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 180px 1fr 1fr;
   width: 100%;
   height: 250vh;
 }
@@ -39,20 +39,28 @@ nav li {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  /*flex-direction: column;*/
+  text-align: center;
+  padding-top: 30px;
 }
 
 .latest-title h1 {
   display: inline-block;
   width: 15vw;
-  height: 5vh;
+  font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
+}
+
+.latest-title h1 span {
+  padding: 10px;
+  line-height: 1.5;
+  background: #bc3428;
 }
 
 .latest-title button {
   display: inline-block;
   width: 15vw;
   height: 10vh;
-  padding-left: 25%;
+  margin-right: -40%;
+  margin-left: 25%;
 }
 
 .latest-article {
