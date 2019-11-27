@@ -1,3 +1,7 @@
+html {
+  color: #fff;
+}
+
 nav {
   display: flex; 
   width: 100%;
@@ -26,7 +30,7 @@ nav li {
 .latest-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 180px 1fr 1fr;
+  grid-template-rows: 180px 550px 550px;
   width: 100%;
   height: 250vh;
 }
@@ -45,8 +49,8 @@ nav li {
 
 .latest-title h1 {
   display: inline-block;
-  width: 15vw;
-  font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
+  width: 19%;
+  font-size: 30px;
 }
 
 .latest-title h1 span {
@@ -60,45 +64,55 @@ nav li {
   width: 15vw;
   height: 10vh;
   margin-right: -40%;
-  margin-left: 25%;
+  margin-left: 22%;
 }
 
 .latest-article {
   display: flex;
-  width: 100%;
-  height: 10vh;
+  flex-direction: column;
+  padding: 5em 5vw 7em;
 }
 
-.latest-article h3 {
+.latest-article div {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.latest-article div h3 {
   font-size: calc(18px + .25vw);
+  margin-left: 30px;
+}
+
+.latest-article h1 {
+  font-size: calc(1.375rem + 1.6vw);
+  font-weight:700;
 }
 
 .latest-container article:nth-child(2) { 
   grid-column: 1/2;
   grid-row: 2/3;
+  background-color: #bc3428;
 }
 
 .latest-container article:nth-child(3) {
   grid-column: 2/3;
   grid-row: 2/3;
-  justify-content: center;
-  align-content: center;
+  background-color: #b95c53;
 } 
 .latest-container article:nth-child(4) {
   grid-column: 1/2;
   grid-row: 3/4;
-  justify-content: center;
-  align-content: center;
+  background-color: #8a160b;
 }
 
 .latest-container article:nth-child(5) {
   grid-column: 2/3;
   grid-row: 3/4;
-  justify-content: center;
-  align-content: center;
+  background-color: #bc3428;
 }
 
 .author-img {
-  width: 84px;
-  height: 84px;
+  width: 75px;
+  height: 75px;
 }
