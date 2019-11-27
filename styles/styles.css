@@ -25,21 +25,59 @@ nav li {
 
 .latest-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  height: 150vh;
 }
 
 .latest-title {
-  grid-column: 4/6;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.latest-article:nth-child(1), 
-.latest-article:nth-child(3) {
-  grid-column: 1/4;
-  grid-row: 1
+.latest-article {
+  display: grid;
+
 }
 
-.latest-article:nth-child(2), 
-.latest-article:nth-child(4) {
-  grid-column: 4/-1;
+.latest-article h3 {
+  font-size: calc(18px + .25vw);
+}
+
+.latest-article button {
+  align-self: flex-end;
+}
+
+.latest-container :nth-child(2) { 
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.latest-container :nth-child(3) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-content: center;
+  align-content: center;
+} 
+.latest-container :nth-child(4) {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  justify-content: center;
+  align-content: center;
+}
+
+.latest-container :nth-child(5) {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  justify-content: center;
+  align-content: center;
+}
+
+.author-img {
+  width: 84px;
+  height: 84px;
 }
