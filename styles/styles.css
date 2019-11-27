@@ -121,7 +121,7 @@ nav li {
 #posts-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 550px 550px 550px;
+  grid-template-rows: 550px 550px 550px 550px 275px;
   position: relative;
   color: black;
 }
@@ -141,6 +141,36 @@ nav li {
   padding: 20px;
 }
 
+.latest-posts p {
+  color: #7c899a;
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.latest-posts h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+
+.latest-posts h3 {
+  color: #7c899a;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.latest-posts span {
+  display: block;
+  font-size: 21px;
+  line-height: 34px;
+  padding-top: 20px;
+}
+
+
 #smash-subscribers {
   color: white;
   display: flex;
@@ -151,6 +181,7 @@ nav li {
   align-items: center;
   grid-column: span 2;
   background-color: #bc3428;
+  padding: 7.5px;
 }
 
 #smash-subscribers h2 {
@@ -177,4 +208,92 @@ nav li {
 
 #smash-subscribers p {
   padding-top: 7.5px;
+}
+
+.smashing-tv {
+  grid-column: span 3;
+  background-color: #8a160b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.smashing-tv img {
+  margin-top: 15px;
+}
+
+.smashing-tv h2 {
+  text-decoration: underline;
+  font-size: 43px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.smashing-tv span {
+  font-size: 22px;
+  line-height: 1.5;
+  width: 60%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.smashing-tv button {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 12.5px;
+  border: 2.5px solid #000000;
+  font-size: 20px;
+}
+
+.smashing-tv p {
+  margin: 20px 0;
+}
+
+.section-end {
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-end p {
+  font-size: 27px;
+  padding-bottom: 7.5px;
+  border-bottom-width: 100%;
+  border-bottom: 5px solid #8a160b;
+}
+
+.book-ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #007aea;
+  color: white;
+}
+
+.book-ad span{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  font-size: 25px;
+}
+
+.book-ad span p {
+  padding: 15px;
+}
+
+.book-ad h2 {
+  text-decoration: underline;
+  font-size: 43px;
+  font-weight: 700;
+}
+
+.book-ad p {
+  
 }
