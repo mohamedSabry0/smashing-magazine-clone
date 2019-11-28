@@ -115,7 +115,7 @@ nav li {
   margin-left: 30px;
 }
 
-.latest-article h1 {
+.latest-article h2 {
   font-size: calc(1.375rem + 1.6vw);
   font-weight: 700;
 }
@@ -282,7 +282,7 @@ nav li {
   color: white;
 }
 
-.book-ad span p {
+.book-ad p span {
   padding: 15px;
 }
 
@@ -292,7 +292,7 @@ nav li {
   font-weight: 700;
 }
 
-.book-ad > p {
+.book-ad > span {
   width: 60%;
   margin: 30px 0;
   font-size: 30px;
@@ -347,7 +347,7 @@ nav li {
   justify-content: space-evenly;
 }
 
-.person-of-week div h1 {
+.person-of-week div h2 {
   font-size: 20px;
   color: #79666a;
 }
@@ -372,7 +372,7 @@ nav li {
   margin-left: 20px;
 }
 
-.community-article div h2 {
+.community-article div h3 {
   font-size: 20.5px;
   font-weight: 700;
   color: #666;
@@ -380,7 +380,7 @@ nav li {
   padding: 7.5px;
 }
 
-.community-article div h1 {
+.community-article div h2 {
   font-size: 31px;
   font-weight: 700;
   color: black;
@@ -443,7 +443,7 @@ nav li {
   font-size: 17px;
 }
 
-.book-ad-2 div h1 {
+.book-ad-2 div h2 {
   font-size: 47px;
   line-height: 56.25px;
   text-decoration: underline;
