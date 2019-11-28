@@ -336,20 +336,21 @@ nav li {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   position: absolute;
-  left: 5px;
-  top: 10px;
+  left: 10px;
+  top: 15px;
   text-transform: uppercase;
 }
 
 .person-of-week {
   display: flex;
   grid-column: span 2;
-  padding-left: 20px;
+  padding: 27.5px;
 }
 
 .person-of-week img {
-  flex-basis: 285px;
-  height: 300px;
+  flex-basis: 235px;
+  height: 250px;
+  margin: 35px;
 }
 
 .person-of-week div {
@@ -369,10 +370,59 @@ nav li {
   line-height: 34.5px;
 }
 
+.community-article {
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+.community-article img {
+  margin-top: 25px;
+}
+
+.community-article div {
+  margin-left: 20px;
+}
+
+.community-article div h2 {
+  font-size: 20.5px;
+  font-weight: 700;
+  color: #666;
+  text-decoration: underline;
+  padding: 7.5px;
+}
+
+.community-article div h1 {
+  font-size: 31px;
+  font-weight: 700;
+  color: black;
+  padding: 7.5px;
+}
+
+.community-article div p {
+  font-size: 20px;
+  line-height: 23px;
+  color: black;
+  padding: 7.5px;
+}
+
+.community-article div p span {
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(102, 102, 102);
+}
+
 .community-end {
   grid-column: span 2;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.community-end p {
+  font-size: 27px;
+  padding-bottom: 7.5px;
+  border-bottom-width: 100%;
+  border-bottom: 5px solid #8a160b;
 }
