@@ -157,13 +157,14 @@ nav li {
   color: black;
 }
 
-#posts-container h4 {
+.section-title {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   position: absolute;
-  left: 5px;
-  top: 10px;
+  left: 10px;
+  top: 15px;
   text-transform: uppercase;
+  color: black;
 }
 
 .latest-posts {
@@ -328,15 +329,6 @@ nav li {
   width: 100px;
 }
 
-.community-links h3 {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  position: absolute;
-  left: 10px;
-  top: 15px;
-  text-transform: uppercase;
-}
-
 .person-of-week {
   display: flex;
   grid-column: span 2;
@@ -420,4 +412,102 @@ nav li {
   font-size: 27px;
   padding-bottom: 7.5px;
   border-bottom: 5px solid #8a160b;
+}
+
+.book-ad-2 {
+  background: #d33a2c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+}
+
+.book-ad-2 img {
+  height: 200px;
+  position: relative;
+  top: -85px;
+  border: 4px solid #d33a2c;
+  border-radius: 5px;
+}
+
+.book-ad-2 div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.book-ad-2 div h3 {
+  font-size: 17px;
+}
+
+.book-ad-2 div h1 {
+  font-size: 47px;
+  line-height: 56.25px;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.5); 
+}
+
+.book-ad-2 div p {
+  font-size: 21.25px;
+  font-weight: 400;
+  line-height: 34.5px;
+}
+
+.book-ad-2 div button {
+  background-color: #fff;
+  border-radius: 11px;
+  border: none;
+  font-size: 26px;
+  color: rgb(38, 125, 204);
+  width: 45%;
+  padding: 15px;
+}
+
+.curated-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 500px 700px 350px;
+}
+
+.curated-posts > div{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.curated-posts div h4 {
+  font-size: 17px;
+  color: rgb(102, 102, 102);
+  line-height: 20px;
+}
+
+.curated-posts div h1 {
+  font-size: 28px;
+  line-height: 34px;
+  color: black;
+}
+
+.curated-posts div ul {
+  color: red;
+  list-style: disc;
+  font-size: 23px;
+  line-height: 34.5px;
+  margin-left: 45px;
+}
+
+.curated-posts div ul li a {
+  color: rgb(0, 111, 198);
+}
+
+.curated-posts figure {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d33a2c;
 }
