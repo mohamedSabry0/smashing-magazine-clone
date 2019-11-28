@@ -2,7 +2,6 @@ html {
   color: #fff;
 }
 
-
 nav {
   display: flex;
   width: 100%;
@@ -53,6 +52,30 @@ nav li {
   font-size: 30px;
 }
 
+.latest-posts span {
+  display: block;
+  font-size: 21px;
+  line-height: 34px;
+  padding-top: 20px;
+}
+
+.smashing-tv span {
+  font-size: 22px;
+  line-height: 1.5;
+  width: 60%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.book-ad span {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  font-size: 25px;
+}
+
 .latest-title h1 span {
   padding: 10px;
   line-height: 1.5;
@@ -77,6 +100,14 @@ nav li {
   display: flex;
   align-items: center;
   padding: 15px;
+}
+
+.latest-posts h3 {
+  color: #7c899a;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-top: 20px;
 }
 
 .latest-article div h3 {
@@ -155,21 +186,6 @@ nav li {
   padding-top: 10px;
 }
 
-.latest-posts h3 {
-  color: #7c899a;
-  font-size: 17px;
-  font-weight: 700;
-  text-transform: capitalize;
-  padding-top: 20px;
-}
-
-.latest-posts span {
-  display: block;
-  font-size: 21px;
-  line-height: 34px;
-  padding-top: 20px;
-}
-
 #smash-subscribers {
   color: white;
   display: flex;
@@ -181,6 +197,13 @@ nav li {
   grid-column: span 2;
   background-color: #bc3428;
   padding: 7.5px;
+}
+
+.smashing-tv h2 {
+  text-decoration: underline;
+  font-size: 43px;
+  font-weight: 700;
+  padding-top: 15px;
 }
 
 #smash-subscribers h2 {
@@ -197,12 +220,30 @@ nav li {
   margin: 30px 0;
 }
 
+.smashing-tv button {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 12.5px;
+  border: 2.5px solid #000;
+  font-size: 20px;
+}
+
 #smash-subscribers button {
   background-color: white;
   padding: 20px 40px;
   border-radius: 12.5px;
-  border: 2.5px solid #000000;
+  border: 2.5px solid #000;
   font-size: 20px;
+}
+
+.smashing-tv p {
+  margin: 20px 0;
+}
+
+.section-end p {
+  font-size: 27px;
+  padding-bottom: 7.5px;
+  border-bottom: 5px solid #8a160b;
 }
 
 #smash-subscribers p {
@@ -223,45 +264,12 @@ nav li {
   margin-top: 15px;
 }
 
-.smashing-tv h2 {
-  text-decoration: underline;
-  font-size: 43px;
-  font-weight: 700;
-  padding-top: 15px;
-}
-
-.smashing-tv span {
-  font-size: 22px;
-  line-height: 1.5;
-  width: 60%;
-  text-align: center;
-  margin: 30px 0;
-}
-
-.smashing-tv button {
-  background-color: white;
-  padding: 20px 40px;
-  border-radius: 12.5px;
-  border: 2.5px solid #000;
-  font-size: 20px;
-}
-
-.smashing-tv p {
-  margin: 20px 0;
-}
-
 .section-end {
   grid-column: span 3;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.section-end p {
-  font-size: 27px;
-  padding-bottom: 7.5px;
-  border-bottom: 5px solid #8a160b;
 }
 
 .book-ad {
@@ -271,15 +279,6 @@ nav li {
   align-items: center;
   background-color: #007aea;
   color: white;
-}
-
-.book-ad span {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 35px;
-  font-size: 25px;
 }
 
 .book-ad span p {
