@@ -603,3 +603,76 @@ nav li {
   color: black;
   border-bottom: 5px solid #8a160b;
 }
+
+body > footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #d33a2c;
+  padding: 2%;
+  align-items: center;
+}
+
+.topics {
+  color: rgb(129, 29, 21);
+  list-style: disc;
+  list-style-position: inside;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topics li {
+  box-sizing: border-box;
+  flex-basis: 80px;
+  margin: 10px 23px;
+  font-size: 25px;
+  line-height: 40px;
+  position: relative;
+}
+
+.topics li a {
+  color: white;
+  text-decoration: none;
+}
+
+body > footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > footer > div img {
+  width: 15%;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  padding: 15px;
+}
+
+.footer-about p {
+  margin: 10px;
+  font-size: 17.6px;
+  line-height:29.6px;
+  text-align: center;
+}
+
+.footer-about ul {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-about li {
+  margin: 5px;
+}
+
+.footer-about a {
+  color: white;
+}
