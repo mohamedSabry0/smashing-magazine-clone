@@ -20,10 +20,12 @@ nav li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 12px;
+  padding: 15px;
 }
 
 .nav-icon {
-  height: 44px;
+  height: 40px;
 }
 
 .latest-container {
@@ -67,7 +69,7 @@ nav li {
   margin: 30px 0;
 }
 
-.book-ad span {
+.book-ad div {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -282,7 +284,7 @@ nav li {
   color: white;
 }
 
-.book-ad p span {
+.book-ad div span {
   padding: 15px;
 }
 
@@ -292,7 +294,7 @@ nav li {
   font-weight: 700;
 }
 
-.book-ad > span {
+.book-ad > p {
   width: 60%;
   margin: 30px 0;
   font-size: 30px;
@@ -553,12 +555,9 @@ nav li {
 
 .curated-posts figure div input {
   width: 60%;
-  height: 75%;
+  height: 35%;
   color: black;
   border: none;
-  text-align: left;
-  padding-top: 5.5%;
-  padding-left: 15px;
 }
 
 .curated-posts figure div input::placeholder {
@@ -616,7 +615,6 @@ body > footer {
 .topics {
   color: rgb(129, 29, 21);
   list-style: disc;
-  list-style-position: inside;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -624,8 +622,8 @@ body > footer {
 
 .topics li {
   box-sizing: border-box;
-  flex-basis: 80px;
-  margin: 10px 23px;
+  flex-basis: 75px;
+  margin: 10px 20px;
   font-size: 25px;
   line-height: 40px;
   position: relative;
@@ -644,6 +642,7 @@ body > footer > div {
 
 body > footer > div img {
   width: 15%;
+  margin: 0 25px;
 }
 
 .footer-about {
