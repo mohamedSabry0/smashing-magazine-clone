@@ -107,6 +107,15 @@ body > footer > div {
   font-size: 25px;
 }
 
+.book-ad-2 div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
 .curated-posts figure div {
   border: 1px solid white;
   background-color: white;
@@ -117,15 +126,6 @@ body > footer > div {
   display: flex;
   align-items: center;
   margin: 15px;
-}
-
-.book-ad-2 div {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-evenly;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
 }
 
 .latest-title h1 span {
