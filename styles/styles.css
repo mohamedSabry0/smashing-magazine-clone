@@ -202,6 +202,18 @@ body > footer > div {
   font-weight: 700;
 }
 
+.curated-posts article {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d33a2c;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 11px;
+}
+
 .latest-container article:nth-child(2) {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -312,6 +324,12 @@ body > footer > div {
 .person-of-week div h2 {
   font-size: 20px;
   color: #79666a;
+}
+
+.curated-posts div h2 {
+  font-size: 28px;
+  line-height: 34px;
+  color: black;
 }
 
 #smash-subscribers h2 {
@@ -589,12 +607,6 @@ body > footer > div img {
   line-height: 20px;
 }
 
-.curated-posts div h2 {
-  font-size: 28px;
-  line-height: 34px;
-  color: black;
-}
-
 .footer-about ul {
   width: 90%;
   display: flex;
@@ -622,18 +634,6 @@ body > footer > div img {
 
 .curated-posts div ul li a {
   color: rgb(0, 111, 198);
-}
-
-.curated-posts article {
-  grid-column: 1/-1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #d33a2c;
-  margin-left: 5%;
-  margin-right: 5%;
-  border-radius: 11px;
 }
 
 .curated-posts article h1 {
