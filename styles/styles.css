@@ -2,7 +2,7 @@ html {
   color: #fff;
 }
 
-#nav {
+.nav {
   width: 100%;
   background-color: #bc3428;
   display: grid;
@@ -10,19 +10,19 @@ html {
   grid-template-rows: 1fr;
 }
 
-#logo{
+#logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#nav ul {
+.nav ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
 }
 
-#nav li {
+.nav li {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,13 +31,21 @@ html {
   padding: 15px;
 }
 
-#nav-button {
+.nav-button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#nav button {
+.latest-title button {
+  display: inline-block;
+  width: 15vw;
+  height: 10vh;
+  margin-right: -40%;
+  margin-left: 22%;
+}
+
+.nav button {
   background-color: transparent;
   border: 3px solid white;
   color: white;
@@ -168,14 +176,6 @@ body > footer > div {
   padding: 10px;
   line-height: 1.5;
   background: #bc3428;
-}
-
-.latest-title button {
-  display: inline-block;
-  width: 15vw;
-  height: 10vh;
-  margin-right: -40%;
-  margin-left: 22%;
 }
 
 .latest-article {
@@ -589,7 +589,7 @@ body > footer > div img {
   line-height: 20px;
 }
 
-.curated-posts div h1 {
+.curated-posts div h2 {
   font-size: 28px;
   line-height: 34px;
   color: black;
