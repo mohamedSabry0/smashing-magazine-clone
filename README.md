@@ -35,9 +35,7 @@ Project: desing teardown
     <a href="https://github.com/mohamedSabry0/smashing-magazine-clone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/mohamedSabry0/smashing-magazine-clone/feature-branch/index.html
-
-">View Demo</a>
+    <a href="https://raw.githack.com/mohamedSabry0/smashing-magazine-clone/master/index.html">View Demo</a>
     ·
     <a href="https://github.com/mohamedSabry0/smashing-magazine-clone/issues">Report Bug</a>
     ·
